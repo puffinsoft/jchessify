@@ -11,6 +11,8 @@ import com.github.bhlangonijr.chesslib.move.Move;
 /**
  * JUnit Tests for Engine <br />
  * Tests whether Engine will choose the right move
+ * 
+ * @version 1.0.0
  */
 public class EngineTest {
 	private Engine engine;

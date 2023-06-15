@@ -6,6 +6,7 @@ import com.github.bhlangonijr.chesslib.move.Move;
 
 /**
  * jChessify core chess engine implementation 
+ * @version 1.0.0
  */
 public class Engine {
 	/**

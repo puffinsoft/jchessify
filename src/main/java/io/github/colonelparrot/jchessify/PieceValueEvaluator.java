@@ -7,6 +7,8 @@ import com.github.bhlangonijr.chesslib.Side;
 /**
  * A basic example of how Evaluator works <br />
  * Uses piece values as evaluation criteria
+ * 
+ * @version 1.0.0
  */
 public class PieceValueEvaluator implements Evaluator {
 	/**

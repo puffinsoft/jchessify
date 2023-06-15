@@ -11,6 +11,8 @@ import java.io.InputStreamReader;
  * Each entry must be on a new line, moves in SAN format seperated by space
  * <br /><br />
  * See the default opening book as an example
+ * 
+ * @version 1.0.0
  */
 public class OpeningBook {
 	BufferedReader br;

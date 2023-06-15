@@ -2,6 +2,7 @@ package io.github.colonelparrot.jchessify;
 
 /**
  * ANSI color codes for colorized console output
+ * @version 1.0.0
  */
 public class AnsiColor {
 	static final String BLUE = "\u001B[34m";

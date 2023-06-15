@@ -4,6 +4,7 @@ import com.github.bhlangonijr.chesslib.Board;
 
 /**
  * Evaluator for jChessify chess engine
+ * @version 1.0.0
  */
 public interface Evaluator {
 	/**
