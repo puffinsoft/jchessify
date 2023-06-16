@@ -28,11 +28,11 @@ public class EngineTest {
 	}
 
 	/**
-	 * Test whether the engine will choose the right move <br />
+	 * Test whether the engine will choose the right move <b>for white</b> <br />
 	 * Since it is only evaluating piece values and the depth is set low, it should take the pawn
 	 */
 	@Test
-	public void testBestMove() {
+	public void testWhiteBestMove() {
 		
 		/*
 		 * rnbqkbnr
@@ -49,6 +49,30 @@ public class EngineTest {
 		
 		final Move bestMove = this.engine.getBestMove(chessBoard);
 		assertEquals(bestMove.toString(), "e4d5");
+	}
+	
+	/**
+	 * Test whether the engine will choose the right move <b>for black</b> <br />
+	 * Since it is only evaluating piece values and the depth is set low, it should take the pawn
+	 */
+	@Test
+	public void testBlackBestMove() {
+		
+		/*
+		 * rnbqkbnr
+		 * ppp.pppp
+		 * ........
+		 * ...p....
+		 * ....P...
+		 * ...P....
+		 * PPP..PPP
+		 * RNBQKBNR
+		 */
+		final Board chessBoard = new Board();
+		chessBoard.loadFromFen("rnbqkbnr/ppp1pppp/8/3p4/4P3/3P4/PPP2PPP/RNBQKBNR b KQkq - 0 2");
+		
+		final Move bestMove = this.engine.getBestMove(chessBoard);
+		assertEquals(bestMove.toString(), "d5e4");
 	}
 
 }
