@@ -15,7 +15,7 @@ public class Engine {
 	 */
 	private Evaluator evaluator;
 
-	Engine(Evaluator evaluator) {
+	public Engine(Evaluator evaluator) {
 		this.evaluator = evaluator;
 	}
 
