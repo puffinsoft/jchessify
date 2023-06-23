@@ -21,15 +21,16 @@ Move bestMove = engine.getBestMove(chessBoard);
 
 > **Note**: chess logic (`Board`, `Move`) is powered by [bhlangonijr/chesslib](https://github.com/bhlangonijr/chesslib)
 
+This example uses `PieceValueEvaluator`, an evaluator which evaluates player advantage through piece values.
+
 ### Custom Evaluation
 
 ```java
 class CustomEvaluator implements Evaluator {
-    // generate random evaluation
+    // positive if advantage, negative if disadvantage
     public int evaluate(Board board){
-        // random value between -1 and 1
-        final double eval = -1 + Math.random() * 2;
-        return eval;
+        // random value between -100 and 100
+        return new Random().nextInt(201) - 100;
     }
 }
 ```
@@ -47,6 +48,14 @@ chessBoard.doMove(bestMoveSAN);
 
 > **Note**: jChessify's `OpeningBook` uses a specific format. The [default opening book](src/main/resources/games.txt) provided should be enough.
 
-# Installation
+## Installation
 
-Coming soon!
+You can install jChessify through Apache Maven. Add the following to your `pom.xml`:
+
+```xml
+<dependency>
+  <groupId>io.github.colonelparrot</groupId>
+  <artifactId>jchessify</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
