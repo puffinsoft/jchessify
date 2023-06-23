@@ -7,7 +7,7 @@ import com.github.bhlangonijr.chesslib.move.Move;
 /**
  * jChessify core chess engine implementation
  * 
- * @version 1.0.0
+ * @version 1.0.2
  */
 public class Engine {
 	/**
@@ -20,10 +20,10 @@ public class Engine {
 	}
 
 	/**
-	 * Indicates the maximum depth for the minimax algorithm to search <br />
-	 * <br />
-	 * The greater the depth, the "smarter" the engine will be <br />
-	 * Be warned that complexity increases with depth, slowing engine down <br />
+	 * Indicates the maximum depth for the minimax algorithm to search <br >
+	 * <br >
+	 * The greater the depth, the "smarter" the engine will be <br >
+	 * Be warned that complexity increases with depth, slowing engine down <br >
 	 * Always choose a good balance of depth & speed
 	 */
 	int maxDepth = 4;
@@ -65,13 +65,13 @@ public class Engine {
 	}
 
 	/**
-	 * Alpha-beta pruning recursive minimax algorithm <br />
-	 * Calculates the best move to play <br />
-	 * <br />
-	 * MINIMAX works by going down a move tree <br />
-	 * &emsp; each side must play the best move for themselves <br />
+	 * Alpha-beta pruning recursive minimax algorithm <br >
+	 * Calculates the best move to play <br >
+	 * <br >
+	 * MINIMAX works by going down a move tree <br >
+	 * &emsp; each side must play the best move for themselves <br >
 	 * &emsp; we simply find the move that, assuming both sides play their best,
-	 * yields the best outcome <br />
+	 * yields the best outcome <br >
 	 * Alpha-beta pruning is used to eliminate moves from the movement tree which we
 	 * know don't need to be searched
 	 * 

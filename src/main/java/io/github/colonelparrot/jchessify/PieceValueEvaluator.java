@@ -5,21 +5,21 @@ import com.github.bhlangonijr.chesslib.Piece;
 import com.github.bhlangonijr.chesslib.Side;
 
 /**
- * A basic example of how Evaluator works <br />
+ * A basic example of how Evaluator works <br >
  * Uses piece values as evaluation criteria
  * 
- * @version 1.0.0
+ * @version 1.0.2
  */
 public class PieceValueEvaluator implements Evaluator {
 	/**
-	 * Evaluates the board <br />
+	 * Evaluates the board <br >
 	 * Uses piece value as evaluation criteria
-	 * <br /> <br />
-	 * Piece values: <br />
-	 * &emsp; pawn is worth 1 point <br />
-	 * &emsp; knight &amp; bishop is worth 3 points <br />
-	 * &emsp; rook is worth 5 points <br />
-	 * &emsp; queen is worth 8 points <br />
+	 * <br > <br >
+	 * Piece values: <br >
+	 * &emsp; pawn is worth 1 point <br >
+	 * &emsp; knight &amp; bishop is worth 3 points <br >
+	 * &emsp; rook is worth 5 points <br >
+	 * &emsp; queen is worth 8 points <br >
 	 * &emsp; king is worth 100 points
 	 * 
 	 * @return advantage

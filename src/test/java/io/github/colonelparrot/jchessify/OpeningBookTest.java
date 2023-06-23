@@ -9,7 +9,7 @@ import org.junit.Test;
 /**
  * Tests whether the OpeningBook reads from built-in opening book
  * 
- * @version 1.0.0
+ * @version 1.0.2
  */
 public class OpeningBookTest {
 	private OpeningBook openingBook;

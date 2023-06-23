@@ -4,12 +4,12 @@ import com.github.bhlangonijr.chesslib.Board;
 
 /**
  * Evaluator for jChessify chess engine
- * @version 1.0.0
+ * @version 1.0.2
  */
 public interface Evaluator {
 	/**
-	 * Advantage score for the current player to play <br />
-	 * A <b>positive score</b> means an advantage <br />
+	 * Advantage score for the current player to play <br >
+	 * A <b>positive score</b> means an advantage <br >
 	 * A <b>negative score</b> means a disadvantage
 	 * 
 	 * @param board board to evaluate

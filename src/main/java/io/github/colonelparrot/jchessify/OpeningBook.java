@@ -6,13 +6,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Top-level API for reading from the opening book <br />
- * Lines beginning with '#' are regarded as comments <br />
+ * Top-level API for reading from the opening book <br >
+ * Lines beginning with '#' are regarded as comments <br >
  * Each entry must be on a new line, moves in SAN format seperated by space
- * <br /><br />
+ * <br ><br >
  * See the default opening book as an example
  * 
- * @version 1.0.0
+ * @version 1.0.2
  */
 public class OpeningBook {
 	BufferedReader br;

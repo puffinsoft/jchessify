@@ -9,16 +9,16 @@ import com.github.bhlangonijr.chesslib.Board;
 import com.github.bhlangonijr.chesslib.move.Move;
 
 /**
- * JUnit Tests for Engine <br />
+ * JUnit Tests for Engine <br >
  * Tests whether Engine will choose the right move
  * 
- * @version 1.0.0
+ * @version 1.0.2
  */
 public class EngineTest {
 	private Engine engine;
 
 	/**
-	 * Create the engine with default evaluator <br /> 
+	 * Create the engine with default evaluator <br > 
 	 * Set engine max depth to 2
 	 */
 	@Before
@@ -28,7 +28,7 @@ public class EngineTest {
 	}
 
 	/**
-	 * Test whether the engine will choose the right move <b>for white</b> <br />
+	 * Test whether the engine will choose the right move <b>for white</b> <br >
 	 * Since it is only evaluating piece values and the depth is set low, it should take the pawn
 	 */
 	@Test
@@ -52,7 +52,7 @@ public class EngineTest {
 	}
 	
 	/**
-	 * Test whether the engine will choose the right move <b>for black</b> <br />
+	 * Test whether the engine will choose the right move <b>for black</b> <br >
 	 * Since it is only evaluating piece values and the depth is set low, it should take the pawn
 	 */
 	@Test
