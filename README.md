@@ -56,6 +56,8 @@ You can install jChessify through Apache Maven. Add the following to your `pom.x
 <dependency>
   <groupId>io.github.colonelparrot</groupId>
   <artifactId>jchessify</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
 </dependency>
 ```
+
+Installation instructions for Gradle and others can be found [here](https://search.maven.org/artifact/io.github.colonelparrot/jchessify/1.0.2/jar).
