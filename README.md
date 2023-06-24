@@ -2,7 +2,13 @@
     <img src="docs/logo.png"  height="100"/>
 </p>
 
-<h2 align="center">Java chess engine framework.</h2>
+<p align="center">
+    <a href="https://colonelparrot.github.io/jchessify/">
+    <img src="https://img.shields.io/badge/view%20javadoc-0?style=for-the-badge">
+    </a>
+</p>
+
+<h2 align="center">Java chess engine framework</h2>
 <p align="center">jChessify makes writing chess engines in Java fun. <br /> It lets you focus on the high-level functionality whilst giving you unparalleled flexibility.</p>
 
 - [x] minimax
@@ -10,6 +16,7 @@
 - [x] opening book support
 
 ### Basic Chess Engine
+
 ```java
 Board chessBoard = new Board();
 chessBoard.loadFromFen("f/e/n");
@@ -34,6 +41,7 @@ class CustomEvaluator implements Evaluator {
     }
 }
 ```
+
 ```java
 Engine engine = new Engine(new CustomEvaluator());
 ```
