@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <a href="https://colonelparrot.github.io/jchessify/">
+    <a href="https://puffinsoft.github.io/jchessify/">
     <img src="https://img.shields.io/badge/view%20javadoc-0?style=for-the-badge">
     </a>
 </p>
